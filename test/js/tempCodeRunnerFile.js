@@ -1,5 +1,12 @@
-let second = 2;
+let soldier = {
+    health: 400,
+    armor: 100
+};
 
-const pi = 3.14;
+let john = {
+  health: 100
+};
 
-console.log(second);
+john.__proto__ = soldier;
+console.log(john);
+console.log(john.armor);

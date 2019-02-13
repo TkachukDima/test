@@ -5,20 +5,62 @@
 // alert(firstNum + secondNum);
 
 // alert(6.35.toFixed(20));
+ 
 
-var leftBorderWidth = 1;
-let second = 2;
+// var calc = (a, b) => a+b;
+// console.log(calc(5, 7));
 
-const pi = 3.14;
+// let twelve = "12.5px";
 
-console.log(second);
+// //console.log(Math.floor(twelve));
+// console.log(parseInt(twelve));
+// console.log(parseFloat(twelve));
 
-var string;
+// let options = {
+//   width: 1024,
+//   height: 1024,
+//   name: "test",
+//   colors: {border: "black", bg: "red"}
+// }
 
-console.log(string);
-//alert("Hello World!");
-// let answer = confirm("Are you here?");
-// console.log(answer);
+// console.log(Object.keys(options).length);
 
-let answer = prompt("Are you here?", "Yes");
-console.log( typeof(answer) );
+// let arr = [1, 2, 3, 4, 5];
+
+// arr.forEach(function(item, i , array) {
+//   console.log("Element: " + item + ", Number element: " + i + " for array:" + array);
+// });
+
+// let ans = prompt("", ""),
+//     arr = [];
+
+// arr = ans.split(",");
+
+// console.log(arr);
+
+
+// let arr = ["qqq", "www", "rrr", "ttt"],
+//     i = arr.join(", ");
+
+// console.log(i);
+// function compareNum(a, b) {
+//   return a-b;
+// }
+
+// let arr = [1, 15, 4],
+//     i = arr.sort(compareNum);
+
+// console.log(arr);
+
+let soldier = {
+    health: 400,
+    armor: 100
+};
+
+let john = {
+  health: 100
+};
+
+john.__proto__ = soldier;
+console.log(john);
+console.log(john.armor);
